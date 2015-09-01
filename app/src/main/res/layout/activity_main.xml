@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:layout_marginTop="100dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/login_facebook"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_view_facebook"
+        android:textSize="14dp"/>
+
+    <Button
+        android:id="@+id/login_twitter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_view_twitter"
+        android:layout_marginTop="20dp"
+        android:textSize="14dp"/>
+
+    <Button
+        android:id="@+id/login_google"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_view_google"
+        android:layout_marginTop="20dp"
+        android:textSize="14dp"/>
+
+    <Button
+        android:id="@+id/login_line"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_view_line"
+        android:layout_marginTop="20dp"
+        android:textSize="14dp"/>
+    <Button
+        android:id="@+id/login_instagram"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/text_view_instagram"
+        android:layout_marginTop="20dp"
+        android:textSize="14dp"/>
+</LinearLayout>
