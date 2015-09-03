@@ -65,7 +65,7 @@ public class GoogleLoginActivity extends AppCompatActivity implements OnClickLis
         mGoogleApiClient = new GoogleApiClient.Builder(this)
                 .addConnectionCallbacks(this)
                 .addOnConnectionFailedListener(this)
-                .addApi(Plus.API, null)
+                .addApi(Plus.API)
                 .addScope(Plus.SCOPE_PLUS_LOGIN)
                 .build();
     }
