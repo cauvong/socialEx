@@ -1,15 +1,15 @@
 package com.example.vynv.socialnetworking;
 
+import android.app.Activity;
 import android.app.Fragment;
 import android.app.FragmentTransaction;
 import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 
 import com.example.vynv.socialnetworking.twitter.Config;
 import com.example.vynv.socialnetworking.twitter.LoginFragment;
 
-public class TwitterActivity extends AppCompatActivity {
+public class TwitterActivity extends Activity {
     SharedPreferences pref;
     @Override
     protected void onCreate(Bundle savedInstanceState) {

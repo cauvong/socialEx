@@ -11,6 +11,7 @@ public class MainActivity extends Activity implements View.OnClickListener{
     private Button loginFaceBook;
     private Button loginTwitter;
     private Button loginGoogle;
+    private Button loginInstagram;
     private Intent intent;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +23,9 @@ public class MainActivity extends Activity implements View.OnClickListener{
         loginTwitter.setOnClickListener(this);
         loginGoogle=(Button)findViewById(R.id.login_google);
         loginGoogle.setOnClickListener(this);
+
+        loginInstagram=(Button)findViewById(R.id.login_instagram);
+        loginInstagram.setOnClickListener(this);
 
     }
 
@@ -40,6 +44,10 @@ public class MainActivity extends Activity implements View.OnClickListener{
                 break;
             case R.id.login_google:
                 intent=new Intent(getApplicationContext(),GoogleActivity.class);
+                startActivity(intent);
+                break;
+            case R.id.login_instagram:
+                intent=new Intent(getApplicationContext(),InstagramActivity.class);
                 startActivity(intent);
                 break;
         }

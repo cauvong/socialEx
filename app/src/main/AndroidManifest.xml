@@ -69,6 +69,10 @@
             android:name=".InstagramActivity"
             android:label="@string/title_activity_instagram" >
         </activity>
+        <activity
+            android:name=".Instagram.RelationshipActivity"
+            android:label="@string/title_activity_relationship" >
+        </activity>
     </application>
 
 </manifest>

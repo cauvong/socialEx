@@ -31,6 +31,16 @@
     <string name="text_view_google">Google Plus</string>
     <string name="title_activity_google">GoogleActivity</string>
     <string name="btn_logout_from_google">Sign out Google</string>
+    <string name="textview_connect">Connect</string>
+    <string name="textview_view_info">View Info</string>
+    <string name="textview_all_image">All Images</string>
+    <string name="textview_follower">Followers</string>
+    <string name="textview_username_profile">User Name:</string>
+    <string name="textview_username">Small Text</string>
+    <string name="textview_follower_profile">Followers</string>
+    <string name="textview_following_profile">Following</string>
+    <string name="textview_following">Following</string>
     <string name="btn_revoke_access">Revoke Access</string>
     <string name="title_activity_instagram">InstagramActivity</string>
+    <string name="title_activity_relationship">RelationshipActivity</string>
 </resources>
