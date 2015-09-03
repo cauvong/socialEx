@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.vynv.socialnetworking.googleplus.GoogleLoginActivity;
+
 public class MainActivity extends Activity implements View.OnClickListener{
 
     private Button loginFaceBook;
@@ -39,7 +41,7 @@ public class MainActivity extends Activity implements View.OnClickListener{
                 startActivity(intent);
                 break;
             case R.id.login_google:
-                intent=new Intent(getApplicationContext(),GoogleActivity.class);
+                intent=new Intent(getApplicationContext(),GoogleLoginActivity.class);
                 startActivity(intent);
                 break;
         }
